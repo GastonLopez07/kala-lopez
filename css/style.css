@@ -4,7 +4,7 @@
   padding: 0;
 } 
 /*header en flexbox*/
-.encabezado{
+  .encabezado {
     display: flex ;
     background-color: #EDE2C1;
     height: auto;
@@ -12,7 +12,8 @@
     align-items: center;
     
   }
-  .encabezado h1 {
+  .encabezado h1{
+    display: flex;
     color: #000000;  
     font-optical-sizing: auto;
     font-weight: 300px;
@@ -21,23 +22,32 @@
     text-align: center;
     
   }
+  .encabezado h2 {
+    display: flex;
+    color: #000000;  
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+  }
+  
 
   .logo{
     height: 100px;
     width: auto;
     padding: 3px 0px;
-   
-}
-.nav-bar{
-  display: flex;
-}
-.nav-bar ul{
-  display: flex;
-}
+   }
+  .nav-bar{
+    display: flex;
+  }
+  .nav-bar ul{
+    display: flex;
+  }
 
-.nav-bar ul li {
-  margin: 10px;  
-  padding: 3px;
+  .nav-bar ul li {
+    margin: 10px;  
+    padding: 3px;
     list-style: none;
   }
 
@@ -46,33 +56,22 @@
     color: #000000;
   }
 
-.encabezado h2 {
-  color: #000000;  
-
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  text-align: center;
-}
-
-.video{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-.card{
-  width: 600px;
-}
+  .video{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .card{
+    width: 600px;
+  }
  
-.card img{
-  width: 100%;
-}
+  .card img{
+    width: 100%;
+  }
 
 
-.cont-carrusel{
-  display: flex;
-  width: 90%;
-  
-  justify-content: center;
-}
+  .cont-carrusel{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+  }
