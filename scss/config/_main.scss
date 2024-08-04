@@ -1,0 +1,41 @@
+    .card-pages{
+        display: flex;
+        justify-content: space-evenly;
+        .botones{
+            color:  #495057;
+            background-color: #ebe1c2;
+            border-color: #212529;
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+            border-style: double;
+        }
+        .cards{
+            width: 600px;
+            }
+        .cards img{
+            width: 100%;
+            }
+    }
+    .cont-carrusel{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        .carousel{
+            display: flex;
+            width: 500px;
+            height: auto;
+                }
+            }
+            h3{
+                font-size: 20px;
+                font-style: oblique;
+            }
+            h4{
+                font-size: 17px;
+                font-style: oblique;
+            }
+            p{
+                font-size: 15px;
+            }

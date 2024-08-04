@@ -1,0 +1,28 @@
+footer{
+    position: absolute;
+    background-color: $color-kala ;
+    .contenedor-iconos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        .logos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .logos{
+                width: 35px;
+                height: 25px;
+            }
+            a{
+                color: $color-black;
+                text-decoration: none;
+            }
+            p{
+                font-size: 15px;
+                font-style: oblique;
+            }
+        }
+    }
+    }
