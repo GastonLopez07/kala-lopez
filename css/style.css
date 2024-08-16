@@ -39,14 +39,13 @@ header{
   color:  #495057;
   background-color: #ebe1c2;
   border-color: #212529;
-    width: 35px;
-    height: 25px;
-  }
+}
 .card{
   display: flex;
   justify-content: center;
   border-style: double;
-}
+
+  }
 .cards{
   width: 600px;
   }
@@ -63,14 +62,7 @@ header{
   width: 500px;
   height: auto;
   }
-  h4{
-    font-size: 17px;
-    font-style: oblique;
-  }
-footer{
-    position: absolute;
-    background-color: #EDE2C1;
-  }  
+
 .contenedor-iconos{
   display: flex;
   justify-content: space-around;
@@ -78,10 +70,9 @@ footer{
   align-content: center;
   flex-wrap: wrap;
 }
-.logos{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contenedor-iconos svg {
+  width: 35px;
+  height: 25px;
 }
 a{
   color: #000;
@@ -90,4 +81,17 @@ a{
 p{
   font-size: 15px;
   font-style: oblique;
+}
+h5{
+  font-size: 17px;
+  font-style: oblique;
+}
+footer{
+  position: absolute;
+  background-color: #EDE2C1;
+}
+.logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
