@@ -1,0 +1,23 @@
+header{
+    background-color: $color-kala;
+    .encabezado h1{
+        display: flex;
+        color: $color-black;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 20px;
+        align-items: center;
+    }
+    .encabezado h2{
+        display: flex;
+        color: $color-black;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 20px;
+        align-items: center;
+    }
+    
+    .bg-header{
+        color: $color-kala;
+    }
+}

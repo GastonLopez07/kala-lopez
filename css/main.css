@@ -1,93 +1,121 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Cinzel", serif;
 }
-header{
+
+header {
   background-color: #EDE2C1;
 }
-.encabezado h1{
+header .encabezado h1 {
   display: flex;
-  color: black;
+  color: #000;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 20px;
   align-items: center;
 }
-.encabezado h2{
+header .encabezado h2 {
   display: flex;
-  color: black;
+  color: #000;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 20px;
   align-items: center;
 }
-.bg-header{
+header .bg-header {
   color: #EDE2C1;
 }
-.gif{
+
+.gif {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.card-pages{
+
+.card-pages {
   display: flex;
   justify-content: space-evenly;
 }
-.botones{
-  color:  #495057;
+.card-pages .botones {
+  color: #495057;
   background-color: #ebe1c2;
   border-color: #212529;
-    width: 35px;
-    height: 25px;
-  }
-.card{
+}
+.card-pages .botones:hover {
+  transition: all;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  color: #747575;
+  background-color: #999998;
+  border-color: #030303;
+}
+.card-pages .card {
   display: flex;
   justify-content: center;
   border-style: double;
 }
-.cards{
+.card-pages .cards {
   width: 600px;
-  }
-.cards img{
+}
+.card-pages .cards img {
   width: 100%;
-  }
-.cont-carrusel{
+}
+
+.cont-carrusel {
   display: flex;
   justify-content: center;
   margin: 20px;
-  }
-.carousel{
+}
+.cont-carrusel .carousel {
   display: flex;
   width: 500px;
   height: auto;
-  }
-  h4{
-    font-size: 17px;
-    font-style: oblique;
-  }
-footer{
-    position: absolute;
-    background-color: #EDE2C1;
-  }  
-.contenedor-iconos{
+}
+
+h3 {
+  font-size: 20px;
+  font-style: oblique;
+}
+
+h4 {
+  font-size: 17px;
+  font-style: oblique;
+}
+
+p {
+  font-size: 15px;
+}
+
+footer {
+  position: absolute;
+  background-color: #EDE2C1;
+}
+footer .contenedor-iconos {
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
 }
-.logos{
+footer .contenedor-iconos .logos {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-a{
+footer .contenedor-iconos .logos .logos {
+  width: 35px;
+  height: 25px;
+}
+footer .contenedor-iconos .logos a {
   color: #000;
   text-decoration: none;
 }
-p{
+footer .contenedor-iconos .logos p {
   font-size: 15px;
   font-style: oblique;
 }
+
+/*# sourceMappingURL=main.css.map */
