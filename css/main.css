@@ -43,6 +43,15 @@ header .bg-header {
   background-color: #ebe1c2;
   border-color: #212529;
 }
+.card-pages .botones:hover {
+  transition: all;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  color: #747575;
+  background-color: #999998;
+  border-color: #030303;
+}
 .card-pages .card {
   display: flex;
   justify-content: center;
